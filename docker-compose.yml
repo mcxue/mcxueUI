@@ -2,6 +2,7 @@ version: "3"
 services:
   app:
     build: .
+    container_name: "mcxueUI"
     labels:
       - "traefik.http.routers.ui.rule=Host(`ui.mcxue.cn`)"
       - "traefik.http.routers.ui.tls=true"

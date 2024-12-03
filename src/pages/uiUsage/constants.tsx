@@ -9,6 +9,10 @@ export const UI_USAGE_MENU_ITEMS: MenuProps['items'] = [
         label: 'Table 表格',
         key: '/ui-usage/table',
       },
+      {
+        label: 'Menu 导航菜单',
+        key: '/ui-usage/menu'
+      }
     ],
   },
   {
